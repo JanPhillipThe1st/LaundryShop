@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="#FFEBF8"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/amiko"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvCustomerContact"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/amiko"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="" />
+    <TextView
+        android:id="@+id/tvDatePaid"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/amiko"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvGrandTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:id="@+id/btnDelete"
+            android:text="DELETE"
+            android:fontFamily="@font/amiko"
+            android:textColor="#FF45C4"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#00FAF3F8"
+            android:orientation="vertical"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:id="@+id/btnEdit"
+            android:text="EDIT"
+            android:fontFamily="@font/amiko"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#FF45C4"
+            android:orientation="vertical"/>
+    </LinearLayout>
+</LinearLayout>
